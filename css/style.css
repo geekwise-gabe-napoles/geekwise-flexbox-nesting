@@ -92,26 +92,26 @@ div{
     background-color:black;
 }
 
-.container1 > div:nth-child(2){
+.container1 > div:nth-child(3){
     justify-content:center;    
 }
 
-.container1 > div:nth-child(3){
+.container1 > div:nth-child(4){
     justify-content:flex-end;
 }
 
-.container2 > div:nth-child(2){
+.container2 > div:nth-child(3){
     justify-content:center;    
 }
 
-.container2 > div:nth-child(3){
+.container2 > div:nth-child(4){
     justify-content:flex-end;    
 }
 
-.container3 > div:nth-child(2){
+.container3 > div:nth-child(3){
     justify-content:center;    
 }
 
-.container3 > div:nth-child(3){
+.container3 > div:nth-child(4){
     justify-content:flex-end;    
 }
