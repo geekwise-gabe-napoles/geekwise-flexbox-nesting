@@ -1,0 +1,117 @@
+html,body{
+    margin:0;
+    padding:0;
+    
+    width:100%;
+    height:100%;
+    
+    font-size:1em;
+    
+    background-color:white;
+    
+    box-sizing:border;
+    
+    display:inline-flex;
+}    
+    
+.container1{    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+    text-align:center;
+    
+    background-color:red;
+    
+    height:100%;
+    width:30%;
+}   
+
+.container2{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+    text-align:center;
+    
+    height:100%;
+    width:30%;
+    
+    background-color:blue;
+}
+
+.container2 > div{
+    align-items:center;
+}
+
+.container3{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+    text-align:center;
+    
+    height:100%;
+    width:30%;
+    
+    background-color:green;
+}
+
+.container3 > div{
+    align-items:flex-end;    
+}
+
+span{
+    font-size:4em;
+    font-weight:bold;
+    color:white;
+    
+    text-transform:uppercase;
+}
+
+div{
+    display:flex;
+    
+    margin:2rem;
+    
+    height:10rem;
+    width:10rem;
+    
+    background-color:white;
+    
+    font-size:10rem;
+    line-height:3rem;
+    align-self:center;
+}
+
+.dot{
+    display:flex;
+    height:3rem;
+    width:3rem;
+    
+    background-color:black;
+}
+
+.container1 > div:nth-child(2){
+    justify-content:center;    
+}
+
+.container1 > div:nth-child(3){
+    justify-content:flex-end;
+}
+
+.container2 > div:nth-child(2){
+    justify-content:center;    
+}
+
+.container2 > div:nth-child(3){
+    justify-content:flex-end;    
+}
+
+.container3 > div:nth-child(2){
+    justify-content:center;    
+}
+
+.container3 > div:nth-child(3){
+    justify-content:flex-end;    
+}
